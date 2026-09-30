@@ -1,23 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 3</title>
+    <title>CPIT-405 Lab 3</title>
 
-    <link rel="stylesheet" href="style.css">
+    <style>
+
+        /* Question 1 */
+        .image-preview img {
+            border-style: solid;
+            border-width: 30px;
+            border-color: skyblue lightpink lightgreen #ffefd5;
+        }
+
+
+        /* Question 2 */
+        p > span {
+            color: red;
+        }
+
+        #header span {
+            color: pink;
+        }
+
+        span {
+            color: green;
+        }
+
+        #header *:last-child {
+            color: orange;
+        }
+
+        #header span:first-child:hover {
+            color: blue;
+        }
+
+    </style>
+
 </head>
 
 <body>
 
-    <h1>Lab 3</h1>
+    <h1>Lab 3: CSS</h1>
+
+
+    <!-- Question 1 -->
 
     <h2>Question 1</h2>
 
     <div class="image-preview">
-        <img src="Kau.jpg.WEBP" alt="KAU Logo">
+        <img src="https://cpit405.gitlab.io/images/KAU_logo.png"
+             alt="KAU Logo">
     </div>
 
+
+    <hr>
+
+
+    <!-- Question 2 -->
 
     <h2>Question 2</h2>
 
@@ -35,7 +77,10 @@
     </p>
 
 
-    <table>
+    <!-- Answer Table -->
+
+    <table border="1">
+
         <tr>
             <th></th>
             <th>color</th>
@@ -43,29 +88,31 @@
         </tr>
 
         <tr>
-            <td>span.myclass1</td>
+            <th>span.myclass1</th>
             <td>pink</td>
             <td>blue</td>
         </tr>
 
         <tr>
-            <td>span.myclass2</td>
+            <th>span.myclass2</th>
             <td>pink</td>
             <td>pink</td>
         </tr>
 
         <tr>
-            <td>span.myclass3</td>
+            <th>span.myclass3</th>
             <td>orange</td>
             <td>orange</td>
         </tr>
 
         <tr>
-            <td>span.myclass4</td>
+            <th>span.myclass4</th>
             <td>red</td>
             <td>red</td>
         </tr>
+
     </table>
 
 </body>
+
 </html>
